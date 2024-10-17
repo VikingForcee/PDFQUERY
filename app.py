@@ -12,7 +12,6 @@ from dotenv import load_dotenv
 import logging
 import numpy as np
 from langchain.vectorstores import FAISS
-
 from chromadb import Client
 from chromadb.config import Settings
 
